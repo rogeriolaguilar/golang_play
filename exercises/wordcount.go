@@ -16,7 +16,6 @@ func WordCount(s string) map[string]int {
 
 func main() {
 	s := "to be or not to be"
-	fmt.Println()
 	fmt.Println(s)
 	result := WordCount(s)
 	fmt.Println(result)
