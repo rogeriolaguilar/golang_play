@@ -1,5 +1,7 @@
 package morestrings
 
+// Code from https://tour.golang.org/
+
 // ReverseRunes returns its argument string reversed rune-wise left to right.
 func ReverseRunes(s string) string {
 	r := []rune(s)
